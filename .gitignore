@@ -1,5 +1,6 @@
 # === iac (Terraform) ===
 iac/.terraform/
+iac/.terraform/**
 iac/*.tfstate
 iac/*.tfstate.*
 iac/*.tfvars
