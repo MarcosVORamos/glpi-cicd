@@ -25,14 +25,20 @@ Esse projeto é uma base sólida para implantar o GLPI em ambientes escaláveis,
 - Docker
 - GitHub Actions
 - Terraform
--- AWS 
---- IAM
---- Futuro: ECR
---- Futuro: VPC
---- Futuro: RDS
---- Futuro: Kubernetes (Amazon EKS)
+  - AWS 
+    - IAM
+    - Futuro: ECR
+    - Futuro: VPC
+    - Futuro: RDS
+    - Futuro: Kubernetes (Amazon EKS)
 
 ---
+
+## Passos Realizados
+
+- Criação do Dockerfile
+- Provisionamento das IAM role, policy e OIDC
+- Configuração da AWS credencials no CI/CD Actions
 
 ## Próximos Passos
 
@@ -50,17 +56,14 @@ Feito por [Marcos Vinicius de Oliveira Ramos](https://www.linkedin.com/in/marcos
 
 ---
 
-
+### Referências
 
 CI/CD:
 
-https://github.com/marketplace/actions/configure-aws-credentials-action-for-github-actions
-
-https://github.com/marketplace/actions/amazon-ecr-login-action-for-github-actions
+- https://github.com/marketplace/actions/configure-aws-credentials-action-for-github-actions
+- https://github.com/marketplace/actions/amazon-ecr-login-action-for-github-actions
 
 IAC:
 
-Identity Providers:
-https://aws.amazon.com/pt/blogs/aws-brasil/como-utilizar-iam-roles-para-conectar-o-github-actions-na-aws/
-
-https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_openid_connect_provider
+- https://aws.amazon.com/pt/blogs/aws-brasil/como-utilizar-iam-roles-para-conectar-o-github-actions-na-aws/
+- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_openid_connect_provider
