@@ -1,1 +1,0 @@
-iam_role_name = "ecr_role"
