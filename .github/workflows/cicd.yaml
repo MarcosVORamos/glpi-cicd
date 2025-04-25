@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - 'glpi-cicd/**'
-      - '.github/workflows/cicd.yml'
+      - '.github/workflows/cicd.yaml'
 
 permissions:
   id-token: write
