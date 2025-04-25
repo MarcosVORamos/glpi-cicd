@@ -39,11 +39,12 @@ Esse projeto é uma base sólida para implantar o GLPI em ambientes escaláveis,
 - Criação do Dockerfile
 - Provisionamento das IAM role, policy e OIDC
 - Configuração da AWS credencials no CI/CD Actions
+- Provisionar o repositorio ECR
+- Criar workflows CI/CD no GitHub Actions para fazer o push da image container para o ECR
 
 ## Próximos Passos
 
-- Provisionar o repositorio ECR
-- Criar workflows CI/CD no GitHub Actions para fazer o push da image container para o ECR
+- Provisionar rede VPC
 - Provisionar o RDS
 - Provisionar EKS e aplicar o deploy do GLPI no cluster
 - Monitoramento e escalabilidade com Prometheus/Grafana
