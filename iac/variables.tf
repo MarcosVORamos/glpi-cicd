@@ -14,3 +14,14 @@ variable "ecr_tags" {
   type        = map(string)
   description = "Tags do projeto"
 }
+
+#S3
+variable "bucket_name_terraform_state"{
+  type        = string
+  description = "Nome do bucket para armazenar o arquivo .tfstate"
+}
+
+variable "tags" {
+  type        = map(string)
+  description = "Tags para os recursos do projeto"
+}

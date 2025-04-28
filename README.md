@@ -27,7 +27,8 @@ Esse projeto é uma base sólida para implantar o GLPI em ambientes escaláveis,
 - Terraform
   - AWS 
     - IAM
-    - Futuro: ECR
+    - ECR
+    - S3
     - Futuro: VPC
     - Futuro: RDS
     - Futuro: Kubernetes (Amazon EKS)
@@ -41,6 +42,7 @@ Esse projeto é uma base sólida para implantar o GLPI em ambientes escaláveis,
 - Configuração da AWS credencials no CI/CD Actions
 - Provisionar o repositorio ECR
 - Criar workflows CI/CD no GitHub Actions para fazer o push da image container para o ECR
+- Criação de bucket para armazenar o arquivo terraform.tfstate e configuração do backend
 
 ## Próximos Passos
 
@@ -68,3 +70,5 @@ IAC:
 
 - https://aws.amazon.com/pt/blogs/aws-brasil/como-utilizar-iam-roles-para-conectar-o-github-actions-na-aws/
 - https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_openid_connect_provider
+- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket
+- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_versioning
