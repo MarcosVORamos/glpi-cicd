@@ -4,3 +4,10 @@ iac/.terraform/**
 iac/*.tfstate
 iac/*.tfstate.*
 iac/*.tfvars
+glpi-cicd/iclara_data/
+glpi-cicd/mariadb/
+glpi-cicd/iclara_data/**
+glpi-cicd/mariadb/**
+glpi-cicd/docker-compose.yaml
+glpi-cicd/iclara.env
+glpi-cicd/mariadb.env

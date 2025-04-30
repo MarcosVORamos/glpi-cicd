@@ -72,3 +72,7 @@ IAC:
 - https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_openid_connect_provider
 - https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket
 - https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_versioning
+- https://developer.hashicorp.com/terraform/language/backend/s3
+- https://pre-commit.com/
+- https://github.com/antonbabenko/pre-commit-terraform
+- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/region
